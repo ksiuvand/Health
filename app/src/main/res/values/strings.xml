@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Healthy</string>
+    <string name="app_name">Health</string>
     <string name="input">Enter goal number in milliliters</string>
     <string name="input_content">100ml to 99999ml</string>
     <string name="input_hint">500</string>
@@ -7,9 +7,10 @@
     <string name="inputCustomAmount">Enter water intake in milliliters</string>
     <string name="inputCustomAmountDelete">Enter water amount you\'d like to discard</string>
 
-    <string name="bmi_cat_3">underweight</string>
-    <string name="bmi_cat_4">normal</string>
-    <string name="bmi_cat_5">preponderance</string>
+    <string name="normal">Normal</string>
+    <string name="obese">Obese</string>
+    <string name="overweight">Over Weight</string>
+    <string name="underweight">Under Weight</string>
 
     <string name="api_key">eb7be285240442b98589364944bc3155</string>
 
