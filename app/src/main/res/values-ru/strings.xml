@@ -104,7 +104,7 @@
     <string name="recipe_name">Название рецепта</string>
     <string name="ingridients">Ингридиенты</string>
     <string name="instruction">Инструкция</string>
-    <string name="calories_burned">Потречено калорий</string>
+    <string name="calories_burned">Потрачено калорий</string>
     <string name="distnce_traveled">Пройденная дистанция</string>
     <string name="your_goal">Ваша цель на день</string>
     <string name="drunk_today">Выпито сегодня</string>
