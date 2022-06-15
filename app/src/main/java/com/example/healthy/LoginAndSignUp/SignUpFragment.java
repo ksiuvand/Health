@@ -11,7 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.healthy.ProfileActivity;
+import com.example.healthy.MainActivity;
+import com.example.healthy.ProfileFragment;
 import com.example.healthy.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -77,56 +78,56 @@ public class SignUpFragment extends Fragment {
         user_height = signHeight.getText().toString().trim();
 
         if(user_email.isEmpty()){
-            signEmail.setError("Email is required");
+            signEmail.setError(getResources().getString(R.string.requiredEmail));
             signEmail.requestFocus();
             return;
         }
         if(!Patterns.EMAIL_ADDRESS.matcher(user_email).matches()){
-            signEmail.setError("Please provide your valid Email");
+            signEmail.setError(getResources().getString(R.string.validEmail));
             signEmail.requestFocus();
             return;
         }
 
         if(user_name.isEmpty()){
-            signName.setError("Name is required");
+            signName.setError(getResources().getString(R.string.requiredName));
             signName.requestFocus();
             return;
         }
 
         if(user_age.isEmpty()){
-            signAge.setError("Age is required");
+            signAge.setError(getResources().getString(R.string.requiredAge));
             signAge.requestFocus();
             return;
         }
 
         if(user_height.isEmpty()){
-            signHeight.setError("Height is required");
+            signHeight.setError(getResources().getString(R.string.requiredHeight));
             signHeight.requestFocus();
             return;
         }
         if(user_weight.isEmpty()){
-            signWeight.setError("Weight is required");
+            signWeight.setError(getResources().getString(R.string.requiredWeight));
             signWeight.requestFocus();
             return;
         }
 
         if(user_password.isEmpty()){
-            signPass.setError("Password is required");
+            signPass.setError(getResources().getString(R.string.requiredPassword));
             signPass.requestFocus();
             return;
         }
         if(user_password.length()<6){
-            signPass.setError("Min Password length should be of 6 characters! ");
+            signPass.setError(getResources().getString(R.string.Passwordcharacters));
             signPass.requestFocus();
             return;
         }
         if(con_password.isEmpty()) {
-            signCpass.setError("Password is required");
+            signCpass.setError(getResources().getString(R.string.requiredPassword));
             signCpass.requestFocus();
             return;
         }
         if (!user_password.equals(con_password)){
-            signCpass.setError("Passwords dont confirm");
+            signCpass.setError(getResources().getString(R.string.confirm_password));
             signCpass.requestFocus();
             return;
         }
@@ -142,16 +143,14 @@ public class SignUpFragment extends Fragment {
                                 public void onComplete(@NonNull Task<Void> task) {
                                     if(task.isSuccessful()){
                                         Toast.makeText(getActivity(), "Succses", Toast.LENGTH_LONG).show();
-                                        startActivity(new Intent(getActivity(), Login.class));
+                                        startActivity(new Intent(getActivity(), MainActivity.class));
                                     }else{
                                         Toast.makeText(getActivity(), "Fail", Toast.LENGTH_LONG).show();
                                     }
                                 }
                             });
 
-                        }else{
-                            Toast.makeText(getActivity(), "Failed to registr user. Try again", Toast.LENGTH_LONG).show();
-                        }
+                        }else{ }
                     }
                 });
     }

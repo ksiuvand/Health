@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:eaze="http://schemas.android.com/apk/res-auto"
+    >
+
+    <ImageButton
+        android:id="@+id/statistic"
+        android:layout_width="50dp"
+        android:layout_margin="10dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/graph">
+    </ImageButton>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/frame">
+
+        <org.eazegraph.lib.charts.PieChart
+            android:id="@+id/graph"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginBottom="20dp"
+            eaze:egHighlightStrength="1"
+            eaze:egInnerPadding="75"
+            eaze:egLegendHeight="0dp">
+
+        </org.eazegraph.lib.charts.PieChart>
+
+        <TextView
+            android:id="@+id/stepsinpiechart"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="165dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/unit"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_marginTop="225dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/steps22"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frame">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+                <ImageButton
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/changegoalSteps"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/pencilblack">
+                </ImageButton>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp"
+                    android:layout_gravity="center">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textSize="25dp"
+                        android:textColor="@color/grey"
+                        android:drawableLeft="@drawable/fire"
+                        android:drawablePadding="10dp"
+                        android:id="@+id/goalStep"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/goalStep"
+                        android:textColor="@color/grey"
+                        android:layout_marginLeft="45dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp"
+                    android:layout_gravity="center">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textSize="25dp"
+                        android:textColor="@color/grey"
+                        android:drawableLeft="@drawable/fire"
+                        android:drawablePadding="10dp"
+                        android:id="@+id/calories"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/calories_burned"
+                        android:textColor="@color/grey"
+                        android:layout_marginLeft="45dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="10dp"
+                app:cardUseCompatPadding="true"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textSize="25dp"
+                        android:textColor="@color/grey"
+                        android:drawableLeft="@drawable/distance"
+                        android:drawablePadding="10dp"
+                        android:id="@+id/distance"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/distnce_traveled"
+                        android:textColor="@color/grey"
+                        android:layout_marginLeft="45dp"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

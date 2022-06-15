@@ -11,7 +11,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.healthy.ProfileActivity;
+import com.example.healthy.MainActivity;
+import com.example.healthy.ProfileFragment;
 import com.example.healthy.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -112,7 +113,7 @@ public class LoginFragment extends Fragment {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
-                    startActivity(new Intent(getActivity(), ProfileActivity.class));
+                    startActivity(new Intent(getActivity(), MainActivity.class));
 
                 } else {
                     Toast.makeText(getActivity(), "Failed to registr user. Try again", Toast.LENGTH_LONG).show();

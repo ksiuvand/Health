@@ -13,6 +13,9 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.example.healthy.LoginAndSignUp.User;
 import com.google.firebase.auth.FirebaseAuth;
@@ -83,27 +86,27 @@ public class EditProfile extends AppCompatActivity {
                 String age = "13";
 
                 if(name.isEmpty()){
-                    profile_name.setError("Name is required");
+                    profile_name.setError(getResources().getString(R.string.requiredName));
                     profile_name.requestFocus();
                     return;
                 }
                 if(weight.isEmpty()){
-                    profile_weight.setError("Weight is required");
+                    profile_weight.setError(getResources().getString(R.string.requiredWeight));
                     profile_weight.requestFocus();
                     return;
                 }
                 if(height.isEmpty()){
-                    profile_height.setError("Height is required");
+                    profile_height.setError(getResources().getString(R.string.requiredHeight));
                     profile_height.requestFocus();
                     return;
                 }
                 if(email.isEmpty()){
-                    profile_email.setError("Email is required");
+                    profile_email.setError(getResources().getString(R.string.requiredEmail));
                     profile_email.requestFocus();
                     return;
                 }
                 if(!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
-                    profile_email.setError("Please provide your valid Email");
+                    profile_email.setError(getResources().getString(R.string.validEmail));
                     profile_email.requestFocus();
                     return;
                 }
@@ -114,8 +117,8 @@ public class EditProfile extends AppCompatActivity {
                 databaseReference.setValue(user);
                 Log.d("ljikhujgyhft333", weight+" "+height);
 
-                Toast.makeText(EditProfile.this,"Profile Updated Successfully!!",Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
+                Toast.makeText(EditProfile.this,getResources().getString(R.string.profileUpdate),Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(getApplicationContext(), MainActivity.class));
                 finish();
 
             }

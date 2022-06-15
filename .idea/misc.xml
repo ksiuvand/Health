@@ -9,12 +9,15 @@
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/drawable-v24/custom_constraint_layout.xml" value="0.14375" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/drawable-v24/custom_edittext_1.xml" value="0.13697916666666668" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/drawable-v24/custum_button_1.xml" value="0.18425925925925926" />
+        <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/drawable-v24/edit_text_bg.xml" value="0.2203125" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.14375" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/drawable/ic_baseline_login_24.xml" value="0.2203125" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/drawable/myprofilebk.xml" value="0.2203125" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/drawable/nav_color.xml" value="0.2203125" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/drawable/rounded.xml" value="0.2203125" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/drawable/whiterectlange.xml" value="0.2203125" />
+        <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/activity_dish_details.xml" value="0.1" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/activity_eating.xml" value="0.12771739130434784" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/activity_edit_profile.xml" value="0.18" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/activity_login.xml" value="0.15" />
@@ -25,14 +28,24 @@
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/activity_sport.xml" value="0.16" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/activity_water.xml" value="0.18" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/fragment_login.xml" value="0.18" />
+        <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/fragment_marks.xml" value="0.1" />
+        <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/fragment_recipes.xml" value="0.18297101449275363" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/fragment_sign_up.xml" value="0.10461956521739131" />
+        <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/fragment_sport.xml" value="0.22" />
+        <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/fragment_sport_statistic.xml" value="0.1" />
+        <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/fragment_water.xml" value="0.18297101449275363" />
+        <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/instructions_step_items.xml" value="0.1" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/list_instructions.xml" value="0.22" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/list_instructions_step_items.xml" value="0.1" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/list_instructions_steps.xml" value="0.22" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/list_meal_ingredients.xml" value="0.1" />
+        <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/list_nutrition.xml" value="0.18659420289855072" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/list_random_recipe.xml" value="0.25" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/spinner_inner_text.xml" value="0.18568840579710144" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/spinner_text.xml" value="0.18568840579710144" />
+        <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/statistics.xml" value="0.18297101449275363" />
+        <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/layout/widget.xml" value="0.1" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/vand-/AndroidStudioProjects/Healthy/app/src/main/res/menu/menu_time_log.xml" value="0.20416666666666666" />
       </map>

@@ -2,8 +2,8 @@ package com.example.healthy;
 
 import android.content.Context;
 
-import com.example.healthy.Listeners.InstructionsListener;
-import com.example.healthy.Listeners.RandomRecipeResponseListener;
+import com.example.healthy.Listeners.InstructionListener;
+import com.example.healthy.Listeners.RandomRecipeListener;
 import com.example.healthy.Listeners.RecipeDetailsListener;
 import com.example.healthy.Models.InstructionsResponse;
 import com.example.healthy.Models.RandomRecipeApiResponse;
@@ -32,7 +32,7 @@ public class RequestManager {
         this.context = context;
     }
 
-    public void getRandomRecipes(RandomRecipeResponseListener listener, List<String> tags){
+    public void getRandomRecipes(RandomRecipeListener listener, List<String> tags){
         CallRandomRecipes callRandomRecipes = retrofit.create(CallRandomRecipes.class);
         Call<RandomRecipeApiResponse> call = callRandomRecipes.callRandomRecipe(context.getString(R.string.api_key),"10", tags);
         call.enqueue(new Callback<RandomRecipeApiResponse>() {
@@ -52,9 +52,9 @@ public class RequestManager {
         });
     }
 
-    public void getRecipeDetails(RecipeDetailsListener listener, int id){
+    public void getRecipeDetails(RecipeDetailsListener listener, int id, boolean nutrition){
         CallRecipeDetails callRecipeDetails = retrofit.create(CallRecipeDetails.class);
-        Call<RecipeDetailsResponse> call = callRecipeDetails.callRecipeDetails(id, context.getString(R.string.api_key));
+        Call<RecipeDetailsResponse> call = callRecipeDetails.callRecipeDetails(id, nutrition, context.getString(R.string.api_key));
         call.enqueue(new Callback<RecipeDetailsResponse>() {
             @Override
             public void onResponse(Call<RecipeDetailsResponse> call, Response<RecipeDetailsResponse> response) {
@@ -72,7 +72,7 @@ public class RequestManager {
         });
     }
 
-    public void getInstructions(InstructionsListener listener, int id){
+    public void getInstructions(InstructionListener listener, int id){
 
         CallInstructions callInstructions = retrofit.create(CallInstructions.class);
         Call<List<InstructionsResponse>> call = callInstructions.callInstructions(id, context.getString(R.string.api_key));
@@ -107,6 +107,7 @@ public class RequestManager {
         @GET("recipes/{id}/information")
         Call<RecipeDetailsResponse> callRecipeDetails(
                 @Path("id") int id,
+                @Query("includeNutrition") boolean nutrition,
                 @Query("apiKey") String apiKey
 
         );

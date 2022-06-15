@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <TextView
-                android:id="@+id/textView_instructions_step_number"
+                android:id="@+id/instructionStepNumberTxt"
                 android:text="1"
                 android:textStyle="bold"
                 android:textSize="18sp"
@@ -25,8 +25,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
             <TextView
-                android:id="@+id/textView_instructions_step_title"
-                android:text="stepname"
+                android:id="@+id/instructionStepTitleTxt"
+                android:text="@string/step_name"
                 android:textStyle="bold"
                 android:textSize="18sp"
                 android:textAlignment="textStart"
@@ -41,7 +41,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <TextView
-                android:text="Equipments:"
+                android:text="@string/equipments"
                 android:textColor="@color/black"
                 android:textAlignment="textStart"
                 android:textSize="18sp"
@@ -50,7 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/recycler_instructions_equipments"
+                android:id="@+id/instructionEquipmentsRecycler"
                 android:layout_margin="4dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
@@ -60,7 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <TextView
-                android:text="Ingredients:"
+                android:text="@string/ingredients"
                 android:textColor="@color/black"
                 android:textAlignment="textStart"
                 android:textSize="18sp"
@@ -69,7 +69,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/recycler_instructions_ingrediets"
+                android:id="@+id/instructionIngredientsRecycler"
                 android:layout_margin="4dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>

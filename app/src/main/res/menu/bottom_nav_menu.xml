@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
+    <item android:title=""
         android:icon="@drawable/eating"
-        android:id="@+id/eat"
-        android:title="" />
-
-    <item
+        android:id="@+id/recipes"/>
+    <item android:title=""
+        android:icon="@drawable/mark"
+        android:id="@+id/marks"/>
+    <item android:title=""
         android:icon="@drawable/sport"
-        android:id="@+id/sport"
-        android:title="" />
-
+        android:id="@+id/sport"/>
     <item android:title=""
         android:icon="@drawable/water"
         android:id="@+id/water"/>
-
     <item android:title=""
         android:icon="@drawable/home"
         android:id="@+id/profile"/>

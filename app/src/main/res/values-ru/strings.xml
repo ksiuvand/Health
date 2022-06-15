@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name"> Мое Здоровье</string>
+    <string name="input">Введите вашу цель в миллилитрах</string>
+    <string name="input_content">100мл до 99999мл</string>
+    <string name="input_hint">500</string>
+    <string name="input_prefill"></string>
+    <string name="inputCustomAmount">Введите потребление воды в миллилитрах</string>
+    <string name="inputCustomAmountDelete">Введите количество воды, которое вы хотите удалить</string>
+
+    <string name="goal">Goal</string>
+    <string name="step_size">Step size</string>
+    <string name="goal_summary">%,d шагов</string>
+    <string name="step_size_summary">Current step size: %1$.2f %2$s</string>
+    <string name="export_summary">Save your data in a .csv file</string>
+    <string name="export_title">Export/Backup</string>
+    <string name="import_summary">Imports previously saved data</string>
+    <string name="import_title">Import/Restore</string>
+    <string name="notification">Show notification</string>
+    <string name="set_goal">Set goal</string>
+    <string name="set_step_size">Set step size</string>
+    <string name="file_cant_read">Error: %s can not be read</string>
+    <string name="error_file">Error accessing the file: %s</string>
+    <string name="error_external_storage_not_available">Error: External storage not available</string>
+    <string name="data_saved">Data saved in %s</string>
+    <string name="entries_imported">%d entries imported</string>
+    <string name="entries_ignored">%d entries were ignored as they did not contain valid data</string>
+    <string name="entries_overwritten">%d entries were overwritten with imported data</string>
+    <string name="sign_in_necessary">Sign in necessary</string>
+    <string name="steps">steps</string>
+    <string name="text_color">Text color:</string>
+    <string name="background_color">Background color:</string>
+    <string name="settings">Settings</string>
+    <string name="achievements">Achievements</string>
+    <string name="goal_reached_notification">Цель достигнута! %s шагов пройденно</string>
+    <string name="notification_text">осталось %s шагов</string>
+    <string name="total">Total</string>
+    <string name="notification_title">Шагомер считает ваши шаги</string>
+    <string name="your_progress_will_be_shown_here_soon">Ваш прогресс скоро будет отображен</string>
+    <string name="average">Average</string>
+    <string name="record">Рекорд</string>
+    <string name="total_last_7_days">Всего за последнюю неделю</string>
+    <string name="average_last_7_days">В среднем на неделе</string>
+    <string name="total_this_month">Всего в этом месяце</string>
+    <string name="average_this_month">В среднем за месяц</string>
+    <string name="file_already_exists">File already exists. Are you sure you want to overwrite it?</string>
+    <string name="about_app_version">App version: %s</string>
+    <string name="since">Since %s</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="close">close</string>
+    <string name="no_split_active">No split counter active. Click start to count the steps from now on</string>
+    <string name="split_count">Split count</string>
+    <string name="no_sensor">Sensor not found</string>
+    <string name="no_sensor_explain">This app requires a dedicated hardware step sensor - which your device does not have. This app won\'t run on your device.</string>
+    <string name="permission_external_storage">No permission to access external storage</string>
+    <string name="notification_settings">Notification settings</string>
+    <string name="goalStep">Ваша цель на день</string>
+    <string name="week_statistics">Ваши результаты</string>
+
+    <string name="sportGoatUpdate">Введите вашу новую цель на день</string>
+    <string name="inputGoalStep">100 шагов до 50000 шагов</string>
+    <string name="this_month">В этом месяце</string>
+    <string name="total_steps">Всего шагов</string>
+    <string name="kcal">Ккал</string>
+    <string name="distance">Дистанция</string>
+
+    <string name="normal">Норма</string>
+    <string name="obese">Ожирение</string>
+    <string name="overweight">Избыточный вес</string>
+    <string name="underweight">Недостаток веса</string>
+
+    <string name="editname">Имя</string>
+    <string name="logintxt">Вход </string>
+    <string name="signuptxt">Регистрация</string>
+    <string name="mll">мл</string>
+    <string name="cmm">см</string>
+    <string name="kgg">кг</string>
+    <string name="added">Добавлено </string>
+    <string name="discard">Удалено </string>
+    <string name="bigwater">Введенное значение велико</string>
+    <string name="metr">м</string>
+    <string name="calories">ккал</string>
+    <string name="step">шагов</string>
+    <string name="step2">шага</string>
+    <string name="step3">шаг</string>
+    <string name="like">Лайков</string>
+    <string name="like2">Лайка</string>
+    <string name="like3">Лайк</string>
+    <string name="servings">Порций</string>
+    <string name="servings2">Порции</string>
+    <string name="servings3">Порция</string>
+    <string name="minute">Минут</string>
+    <string name="minute2">Минуты</string>
+    <string name="minute3">Минута</string>
+    <string name="update">Обновить данные</string>
+    <string name="your_weight">Ваш вес</string>
+    <string name="your_height">Ваш рост</string>
+    <string name="your_email">Ваша почта</string>
+    <string name="welcome_to_health">Добро пожаловать в приложение Здоровье</string>
+    <string name="recipes">Рецепты</string>
+    <string name="search">Найдите свой рецепт...</string>
+    <string name="your_index_mass_body">Ваш индекс массы тела</string>
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="recipe_name">Название рецепта</string>
+    <string name="ingridients">Ингридиенты</string>
+    <string name="instruction">Инструкция</string>
+    <string name="calories_burned">Потречено калорий</string>
+    <string name="distnce_traveled">Пройденная дистанция</string>
+    <string name="your_goal">Ваша цель на день</string>
+    <string name="drunk_today">Выпито сегодня</string>
+    <string name="water1">Добавить 250мл</string>
+    <string name="water2">Добавить 500мл</string>
+    <string name="water3">Добавить 1000мл</string>
+    <string name="water4">Добавить значение</string>
+    <string name="water5">Удалить воду</string>
+    <string name="emaillogin">Почта</string>
+    <string name="passwordlogin">Пароль</string>
+    <string name="log_inlogin">Войти</string>
+    <string name="forgot_password">Забыли пароль ?</string>
+    <string name="age">Возраст</string>
+    <string name="weightsignup">Вес</string>
+    <string name="heightsignup">Рост</string>
+    <string name="password">Пароль</string>
+    <string name="confirm_password">Повторите пароль</string>
+    <string name="sign_up">Зарегестрироваться</string>
+    <string name="itemrecep">Продукт</string>
+    <string name="step_name">Название шага</string>
+    <string name="equipments">Оборудование:</string>
+    <string name="ingredients">Ингридиенты:</string>
+    <string name="chicken">ингридиент</string>
+    <string name="pc">1 шт</string>
+    <string name="dish_name">Название блюда</string>
+    <string name="persons">2 человека</string>
+    <string name="likes">2 лайка</string>
+    <string name="hour">2 часа</string>
+    <string name="dessert">Десерт</string>
+    <string name="menu">Меню</string>
+    <string name="loading">Загрузка...</string>
+    <string name="requiredPassword">Введите пароль</string>
+    <string name="requiredEmail">Введите почту</string>
+    <string name="validEmail">Пожалуйста проверьте правильность написания почты</string>
+    <string name="requiredName">Введите имя</string>
+    <string name="requiredAge">Введите возраст</string>
+    <string name="requiredHeight">Введите рост</string>
+    <string name="requiredWeight">Введите вес</string>
+    <string name="Passwordcharacters">Минимальная длина пароля - 6 символов!</string>
+    <string name="Passwordsconfirm">Пароли не совпадают</string>
+    <string name="steps22">шагов</string>
+    <string name="recipesTitl">Сохраненные рецепты</string>
+    <string name="profileUpdate">Профиль успешно обнавлен!</string>
+
+    <string name="api_key">eb7be285240442b98589364944bc3155</string>
+
+    <string-array name="tags">
+        <item>основное блюдо</item>
+        <item>гарнир</item>
+        <item>десерт</item>
+        <item>закуска</item>
+        <item>салат</item>
+        <item>хлеб</item>
+        <item>завтрак</item>
+        <item>суп</item>
+        <item>напиток</item>
+        <item>соус</item>
+        <item>маринад</item>
+        <item>фингерфуд</item>
+        <item>перекус</item>
+        <item>напиток</item>
+    </string-array>
+</resources>
