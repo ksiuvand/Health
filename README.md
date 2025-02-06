@@ -9,12 +9,12 @@
 - отслеживать свои показатели (рост, вес)
 
 <p>
-  <img src="https://github.com/user-attachments/assets/8548e027-f06e-438f-925a-6995dcceef99">
-  <img src="https://github.com/user-attachments/assets/61fafcf5-f904-4592-8239-863ff2e378a8">
-  <img src="https://github.com/user-attachments/assets/43c18223-5655-464f-8b19-c80e0441e354">
+  <img src="https://github.com/user-attachments/assets/33e9be87-257f-48b1-90ba-d320134597b8">
+  <img src="https://github.com/user-attachments/assets/34a0803b-6fa1-4ddd-85d2-2d5c18242943">
+  <img src="https://github.com/user-attachments/assets/a44cb819-bcd1-460c-83a5-fe30d6c778b7">
 </p>
 <p>
-  <img src="https://github.com/user-attachments/assets/e7c29d87-d740-40c6-9b66-c8bdcaf8f4b1">
-  <img src="https://github.com/user-attachments/assets/61746352-4770-4e06-b9d8-7d30fbe73f9f">
-  <img src="https://github.com/user-attachments/assets/14ee8407-104a-4077-9138-add15f7b8424">
+  <img src="https://github.com/user-attachments/assets/024cfaac-d607-48d3-b546-d1e81885bfef">
+  <img src="https://github.com/user-attachments/assets/ed11eb70-692a-46d7-88c4-8208aac3de9d">
+  <img src="https://github.com/user-attachments/assets/e381f353-ee8f-4bec-8095-1460d4b6e59c">
 </p>
